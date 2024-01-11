@@ -1,0 +1,40 @@
+<% include ./layout/header.ejs %>
+
+<div id="main">
+    <div id="hero">
+        <div id="follower">
+            <p>Go</p>
+        </div> <!-- Added mouse follower div -->
+       
+        <% include ./layout/navbar.ejs %>
+        <h1 class="title">
+            Welcome to Abdullah Farm House  
+        </h1>
+        <h1 class="title">Your Trusted Source for Quality Grains</h1>
+        <a href="/buy" class="btn btn-primary explore">Buy</a>
+    </div>
+
+    <div id="about">
+        <div class="about-content">
+            <h2>Nourishing Lives, Sowing Success</h2>
+            <p>At Abdullah Farm House, we believe in the power of wholesome grains to fuel your journey towards a healthier and happier life. Our commitment to quality, sustainability, and customer satisfaction sets us apart as your go-to destination for premium grains.</p>
+            
+            <h3>Why Choose Abdullah Farm House?</h3>
+            <ul>
+                <li><strong>Farm-to-Table Excellence:</strong> We partner with local farmers who share our passion for sustainable agriculture. This ensures that every grain we offer is cultivated with care, from the fertile fields to your table.</li>
+                <li><strong>Uncompromising Quality:</strong> Our grains undergo rigorous quality checks to meet the highest standards. We take pride in delivering products that not only meet but exceed your expectations, providing you with the finest selection available.</li>
+                <li><strong>Diverse Range:</strong> Explore a diverse range of grains to suit your culinary preferences and dietary needs. From ancient grains packed with nutrients to classic staples, we have it all.</li>
+                <li><strong>Transparent Sourcing:</strong> We believe in transparency. Know the story behind each grain - its origin, cultivation practices, and the hands that nurtured it. Our commitment to traceability ensures you make informed choices.</li>
+            </ul>
+
+            <h3>Experience the Abdullah Farm House Difference:</h3>
+            <p>Picture a pantry filled with the finest grains, each chosen with care and purpose. Whether you are a home cook, a culinary enthusiast, or a professional chef, Abdullah Farm House is here to elevate your grain experience.</p>
+            <p>Join us on a journey where every grain tells a story of dedication, quality, and sustainability. Embrace the goodness of nature with Abdullah Farm House.</p>
+        </div>
+    </div>
+    
+</div>
+<script src="/javascripts/<%= jsname %>.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js" integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<% include ./layout/footer.ejs %>
