@@ -1,0 +1,23 @@
+{
+  "name": "wingahouse",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.6",
+    "debug": "^4.3.4",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-flash": "^0.0.2",
+    "express-session": "^1.17.3",
+    "http-errors": "^2.0.0",
+    "mongoose": "^8.0.4",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.9.8",
+    "nodemon": "^3.0.2"
+  }
+}
